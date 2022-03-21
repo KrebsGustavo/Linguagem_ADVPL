@@ -59,22 +59,22 @@ _oReport  :SetLandscap(.T.)
 //3° <Tabela>
 _oContr := TRSection():New(_oReport,"CONTRATOS DE FREEZE",{"ZRG"} )
 
-	TRCell():New(_oContr	,"ZRG_CLIENT"	    ,"ZRG" 	,"CLIENTE"		   	,"@!"						    ,40	,.F.)
-	TRCell():New(_oContr	,"ZRG_NRCTRA"	  	,"ZRG" 	,"N CONTRATO"	    ,"@!"               ,25	,.F.)
-	TRCell():New(_oContr	,"ZRG_CODSC5"	    ,"ZRG" 	,"PEDIDO"		      ,"@!"	              ,25	,.F.)
-	TRCell():New(_oContr	,"ZRG_NFREME"	  	,"ZRG" 	,"NF REMESSA"		  ,"@!"	              ,25	,.F.)
-	TRCell():New(_oContr	,"ZRG_INICIO"	  	,"ZRG" 	,"DT INICIO"    	,"@!"		            ,25	,.F.)
-	TRCell():New(_oContr	,"ZRG_FIM"		    ,"ZRG" 	,"DT FIM"    	    ,"@!"		            ,25	,.F.)
-	TRCell():New(_oContr	,"ZRG_STATUS"	  	,"ZRG" 	,"STATUS"         ,"@!"		            ,25	,.F.)
+	TRCell():New(_oContr  ,     "ZRG_CLIENT"  ,     "ZRG"   ,     "CLIENTE"     ,"@!"   ,   40   ,   .F.)
+	TRCell():New(_oContr  ,     "ZRG_NRCTRA"  ,     "ZRG"   ,     "N CONTRATO"  ,"@!"   ,   25   ,   .F.)
+	TRCell():New(_oContr  ,     "ZRG_CODSC5"  ,     "ZRG"   ,     "PEDIDO"      ,"@!"   ,   25   ,   .F.)
+	TRCell():New(_oContr  ,     "ZRG_NFREME"  ,     "ZRG"   ,     "NF REMESSA"  ,"@!"   ,   25   ,   .F.)
+	TRCell():New(_oContr  ,     "ZRG_INICIO"  ,     "ZRG"   ,     "DT INICIO"   ,"@!"   ,   25   ,   .F.)
+	TRCell():New(_oContr  ,     "ZRG_FIM"     ,     "ZRG"   ,     "DT FIM"      ,"@!"   ,   25   ,   .F.)
+	TRCell():New(_oContr  ,     "ZRG_STATUS"  ,     "ZRG"   ,     "STATUS"      ,"@!"   ,   25   ,   .F.)
 
 
  _oIten := TRSection():New(_oReport,"ITENS DO CONTRATO",{"ZRH"} )
 
-	TRCell():New(_oIten	,"ZRH_PRODUT"	    ,"ZRH" 	,"PRODUTO"		    	  ,"@!"						    ,40	,.F.)
-	TRCell():New(_oIten	,"ZRH_SRPROD"		  ,"ZRH" 	,"N SERIE"	          ,"@!"               ,25	,.F.)
-	TRCell():New(_oIten	,"ZRH_PLACA"	    ,"ZRH" 	,"PLAQUETA"		        ,"@!"	             	,25	,.F.)
-	TRCell():New(_oIten	,"ZRH_INICIO"		  ,"ZRH" 	,"DT INICIO"		      ,"@!"	              ,25	,.F.)
-	TRCell():New(_oIten	,"ZRH_FIM"		    ,"ZRH" 	,"DT FIM"    	        ,"@!"		            ,25	,.F.)
+	TRCell():New(_oIten   ,"ZRH_PRODUT"       ,     "ZRH"   ,     "PRODUTO"     ,"@!"   ,   40   ,   .F.)
+	TRCell():New(_oIten   ,"ZRH_SRPROD"       ,     "ZRH"   ,     "N SERIE"     ,"@!"   ,   25   ,   .F.)
+	TRCell():New(_oIten   ,"ZRH_PLACA"        ,     "ZRH"   ,     "PLAQUETA"    ,"@!"   ,   25   ,   .F.)
+	TRCell():New(_oIten   ,"ZRH_INICIO"       ,     "ZRH"   ,     "DT INICIO"   ,"@!"   ,   25   ,   .F.)
+	TRCell():New(_oIten   ,"ZRH_FIM"          ,     "ZRH"   ,     "DT FIM"      ,"@!"   ,   25   ,   .F.)
 
 
 
